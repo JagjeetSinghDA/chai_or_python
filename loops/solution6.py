@@ -1,10 +1,10 @@
 number = int(input("Write the number to calculate the factorial. "))
 multiply = 1
 
-while number > 0:
-    multiply = multiply * number
-    number = number - 1 
-print(multiply)
+# while number > 0:
+#     multiply = multiply * number
+#     number = number - 1 
+# print(multiply)
 
 
 

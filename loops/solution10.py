@@ -1,7 +1,7 @@
 
 import time 
 
-wait_time = 10
+wait_time = 2
 max_retries = 5 
 attempts = 0 
 
