@@ -1,11 +1,12 @@
-username = 'chaiaurcode'
 
-def func():
-    username = 'chai'
-    print(username)
+# username = 'chaiaurcode'
 
-print(username)
-func()
+# def func():
+#     username = 'chai'
+#     print(username)
+
+# print(username)
+# func()
 
 
 # if we declare a variable globally, we can use under any function, 
@@ -14,7 +15,7 @@ func()
 # it is like we can talk about our home outside, but we can take outside things to home 
 
 
-# x = 99 
+x = 99 
 # def func2(y):
 #     z = x + y 
 #     return z 

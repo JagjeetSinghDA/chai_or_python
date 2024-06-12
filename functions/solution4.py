@@ -7,5 +7,5 @@ def circle_stats(radius):
 
 a, c = circle_stats(7)
 
-# print(circle_stats(7))
+print(circle_stats(7))
 print(f"Area: {round(a, 2)}, Circumference: {round(c, 2)}")
