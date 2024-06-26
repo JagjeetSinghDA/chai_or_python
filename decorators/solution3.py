@@ -2,15 +2,17 @@ import time
 
 def cache(func):
     cache_value = {}
-    print(cache_value)
+    # print(cache_value)``
     def wrapper(*args, **kwargs):
         if args in cache_value:
+            print(cache_value)
             return cache_value[args]
         result = func(*args, **kwargs)
         cache_value[args] = result 
         return result 
     # print(cache_value) just wanted to check if I can see the cache values or not
     return wrapper
+    print(cache_value)
 
 
 
@@ -20,6 +22,13 @@ def long_running_function(a,b):
     return a + b
 
 print(long_running_function(2,3))
-print(long_running_function(2,3))
+# print(long_running_function(2,3))
 
 print(long_running_function(4,3))
+# print(long_running_function(4,3))
+
+print(long_running_function(5,3))
+# print(long_running_function(5,3))
+
+print(long_running_function(4,3))
+# print(long_running_function(4,3))
